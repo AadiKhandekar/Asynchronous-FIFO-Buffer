@@ -31,13 +31,12 @@ This project implements an **Asynchronous FIFO (First-In-First-Out)** buffer in 
 ```
 Async-FIFO/
 ├── src/
-│   └── async_fifo.sv        # FIFO design
+│   └── async_fifo.v        # FIFO design (Verilog)
 ├── tb/
-│   └── tb_async_fifo.sv     # Testbench
-├── constraints/
-│   └── fifo.xdc             # (optional, if FPGA used)
+│   └── tb_async_fifo.v     # Testbench
 └── README.md
 ```
+
 
 ---
 
@@ -51,13 +50,13 @@ The testbench verifies:
 
 Run simulation using:
 
-* Xilinx Vivado Simulator / ModelSim / any SV-compatible simulator
+* Xilinx Vivado Simulator / ModelSim / any Verilog-compatible simulator
 
 ---
 
 ## 🛠️ Tools Used
 
-* SystemVerilog
+* Verilog
 * Xilinx Vivado
 
 ---
