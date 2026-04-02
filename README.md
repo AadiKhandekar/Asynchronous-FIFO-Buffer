@@ -1,4 +1,4 @@
-# Asynchronous FIFO Design (SystemVerilog)
+# Asynchronous FIFO Design (Verilog)
 
 ## 📌 Overview
 
