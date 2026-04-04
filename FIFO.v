@@ -19,17 +19,6 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
-//--------------DESCRIPTION-----------------
-// This is a FIFO module with a configurable data size and address size.
-// This is a top level module which wraps all the submodules together.
-//-------------------------------------------
-
-// -------------PARAMETERS------------
-// DSIZE: Size of the data bus
-// ASIZE: Size of the address bus
-// -----------------------------------
-
 module FIFO #(parameter DSIZE = 8,
     parameter ASIZE = 4)(
     output [DSIZE-1:0] rdata,       // Output data - data to be read
