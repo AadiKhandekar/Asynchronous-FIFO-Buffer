@@ -28,7 +28,7 @@ module fifomem#(parameter DATA_SIZE = 8,
     input wclk_en, wfull, wclk          // Write clock enable, write full, write clock
     );
 
-    localparam DEPTH = 1<<ADDR_SIZE;     // Depth of the FIFO memory
+    localparam DEPTH = 1<<ADDR_SIZE;     // Depth of the FIFO memory --> 2^ADDR_SIZE
     reg [DATA_SIZE-1:0] mem [0:DEPTH-1];// Memory array
 
     assign rdata = mem[raddr];          // Read data
